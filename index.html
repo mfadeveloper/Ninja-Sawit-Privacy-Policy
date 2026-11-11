@@ -1,126 +1,790 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#10271d">
-  <meta name="description" content="Kebijakan Privasi NINJA SAWIT. Pelajari bagaimana aplikasi mengelola data, penyimpanan lokal, iklan, dan pilihan privasi Anda.">
-  <title>Kebijakan Privasi — NINJA SAWIT</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#123c2b">
+  <meta name="description" content="Kebijakan Privasi resmi NINJA SAWIT oleh M.F.A. Informasi mengenai data, iklan, penyimpanan, dan privasi pengguna.">
+  <title>Kebijakan Privasi | NINJA SAWIT</title>
+
   <style>
-    :root{--forest:#10271d;--forest2:#193c2c;--leaf:#3e7950;--gold:#e8bd58;--ink:#1d2a22;--muted:#68756d;--paper:#f5f7f2;--line:#e4e9e1;--white:#fff;--soft:#edf3e9;--shadow:0 18px 50px rgba(16,39,29,.10)}
-    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:92px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.72 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
-    a{color:#286343;text-decoration-thickness:1px;text-underline-offset:3px}a:hover{color:#153e29}.top{background:radial-gradient(ellipse at 85% 10%,rgba(232,189,88,.18),transparent 28%),linear-gradient(135deg,var(--forest),var(--forest2));color:white;padding:22px 24px 72px;position:relative;overflow:hidden}.top:after{content:"";position:absolute;width:420px;height:420px;border:1px solid rgba(255,255,255,.09);border-radius:50%;right:-160px;top:-230px;box-shadow:0 0 0 35px rgba(255,255,255,.025),0 0 0 75px rgba(255,255,255,.02)}
-    .nav{max-width:1120px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px;position:relative;z-index:1}.brand{display:flex;align-items:center;gap:12px;color:white;text-decoration:none;font-weight:800;letter-spacing:.04em}.mark{width:42px;height:42px;border-radius:13px;background:linear-gradient(145deg,#f2d37c,#c89431);display:grid;place-items:center;color:#173321;font-size:21px;box-shadow:0 6px 18px #0003}.nav small{color:#cbd8ce;letter-spacing:.13em;text-transform:uppercase;font-size:11px}.hero{max-width:1120px;margin:64px auto 0;position:relative;z-index:1}.eyebrow{color:#f0cf7d;text-transform:uppercase;letter-spacing:.18em;font-weight:750;font-size:12px}.hero h1{font-size:clamp(36px,6vw,62px);line-height:1.08;letter-spacing:-.045em;margin:14px 0 16px;max-width:760px}.hero p{max-width:690px;color:#d7e2d9;font-size:17px;margin:0}.meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.pill{border:1px solid #ffffff35;background:#ffffff0d;border-radius:999px;padding:7px 13px;color:#e8eee9;font-size:13px}
-    .wrap{max-width:1120px;margin:-32px auto 80px;padding:0 24px;position:relative;z-index:2;display:grid;grid-template-columns:260px minmax(0,1fr);gap:24px;align-items:start}.side,.content{background:var(--white);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow)}.side{padding:22px;position:sticky;top:20px}.side h2{font-size:12px;text-transform:uppercase;letter-spacing:.13em;color:var(--muted);margin:0 0 14px}.side a{display:block;text-decoration:none;color:#536158;padding:8px 10px;border-radius:9px;font-size:13px;line-height:1.4}.side a:hover{background:var(--soft);color:var(--forest)}.side .note{border-top:1px solid var(--line);margin-top:16px;padding-top:15px;color:var(--muted);font-size:12px}.content{padding:clamp(24px,4vw,48px)}.intro{background:var(--soft);border:1px solid #dce8d8;border-radius:14px;padding:18px 20px;margin-bottom:34px;color:#344a3b}.intro strong{color:#1b4a2f}.section{padding:26px 0;border-bottom:1px solid var(--line);scroll-margin-top:24px}.section:first-of-type{padding-top:0}.section:last-child{border-bottom:0;padding-bottom:0}.section h2{font-size:21px;line-height:1.3;letter-spacing:-.02em;margin:0 0 12px;color:var(--forest)}.section p{margin:9px 0;color:#48554c}.section ul{padding-left:22px;color:#48554c;margin:10px 0}.section li{padding:3px 0}.tag{display:inline-block;background:#f7f0dc;color:#72571d;border-radius:6px;padding:2px 8px;font-size:11px;font-weight:750;letter-spacing:.05em;text-transform:uppercase;margin-bottom:10px}.callout{border-left:3px solid var(--gold);background:#fbf8ef;padding:14px 17px;border-radius:0 10px 10px 0;margin:16px 0;color:#5d5238;font-size:14px}.placeholder{background:#fff4df;border:1px dashed #d3a84e;border-radius:8px;padding:2px 7px;color:#76551b;font-weight:700}.footer{background:var(--forest);color:#d7e2d9;padding:34px 24px}.footer-inner{max-width:1120px;margin:auto;display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}.footer strong{color:white}.footer p{margin:5px 0;font-size:13px;color:#b8c9bd}.footer a{color:#f0cf7d}.smallprint{font-size:12px;color:var(--muted);margin-top:22px}
-    @media(max-width:820px){.wrap{grid-template-columns:1fr;margin-top:-26px}.side{position:static}.side nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px}.side .note{margin-top:12px}.hero{margin-top:48px}}
-    @media(max-width:520px){.top{padding:18px 18px 58px}.nav small{display:none}.hero{margin-top:42px}.hero p{font-size:15px}.wrap{padding:0 12px;gap:14px}.side,.content{border-radius:15px}.side{padding:16px}.side nav{grid-template-columns:1fr 1fr}.side a{font-size:12px;padding:8px}.content{padding:23px 19px}.section h2{font-size:19px}.footer{padding:28px 20px}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+    :root {
+      --green: #176b45;
+      --green-dark: #123c2b;
+      --green-light: #eaf5ee;
+      --text: #24332b;
+      --muted: #68776e;
+      --border: #e4ebe6;
+      --surface: #ffffff;
+      --background: #f5f8f6;
+      --radius: 16px;
+      --shadow: 0 8px 30px rgba(18,60,43,.06);
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family: Inter, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: var(--green);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #123c2b, #176b45);
+      color: white;
+      padding: 58px 22px 76px;
+    }
+
+    .hero-inner {
+      max-width: 1120px;
+      margin: auto;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 38px;
+    }
+
+    .brand-icon {
+      width: 46px;
+      height: 46px;
+      display: grid;
+      place-items: center;
+      border-radius: 14px;
+      background: rgba(255,255,255,.15);
+      font-size: 25px;
+    }
+
+    .brand-name {
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+    }
+
+    .brand-sub {
+      display: block;
+      color: rgba(255,255,255,.72);
+      font-size: 12px;
+      letter-spacing: .3px;
+      font-weight: 400;
+    }
+
+    .hero h1 {
+      max-width: 760px;
+      margin: 0 0 14px;
+      font-size: clamp(32px, 5vw, 48px);
+      line-height: 1.15;
+      letter-spacing: -1.5px;
+    }
+
+    .hero p {
+      max-width: 690px;
+      margin: 0;
+      color: rgba(255,255,255,.82);
+      font-size: 16px;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 25px;
+    }
+
+    .meta-pill {
+      padding: 7px 13px;
+      border: 1px solid rgba(255,255,255,.22);
+      border-radius: 30px;
+      color: rgba(255,255,255,.9);
+      font-size: 12px;
+    }
+
+    .layout {
+      max-width: 1120px;
+      margin: -30px auto 0;
+      padding: 0 22px 60px;
+      display: grid;
+      grid-template-columns: 255px minmax(0, 1fr);
+      gap: 26px;
+      align-items: start;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 20px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px 16px;
+      box-shadow: var(--shadow);
+    }
+
+    .sidebar-title {
+      margin: 0 0 13px 10px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+
+    .toc {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .toc a {
+      padding: 8px 10px;
+      border-radius: 8px;
+      color: #526258;
+      font-size: 12.5px;
+      line-height: 1.5;
+      transition: background .2s, color .2s;
+    }
+
+    .toc a:hover {
+      background: var(--green-light);
+      color: var(--green-dark);
+      text-decoration: none;
+    }
+
+    .content {
+      min-width: 0;
+    }
+
+    .summary {
+      margin-bottom: 20px;
+      padding: 24px;
+      background: var(--green-light);
+      border: 1px solid #d9ebdf;
+      border-radius: var(--radius);
+    }
+
+    .summary-label {
+      display: inline-block;
+      margin-bottom: 8px;
+      color: var(--green);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .summary h2 {
+      margin: 0 0 8px;
+      color: var(--green-dark);
+      font-size: 20px;
+    }
+
+    .summary p {
+      margin: 0;
+      color: #435c4b;
+      font-size: 14px;
+    }
+
+    .policy-section {
+      margin-bottom: 16px;
+      padding: 27px 30px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      scroll-margin-top: 20px;
+    }
+
+    .section-number {
+      display: inline-block;
+      margin-bottom: 8px;
+      color: var(--green);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.2px;
+    }
+
+    .policy-section h2 {
+      margin: 0 0 14px;
+      color: var(--green-dark);
+      font-size: 21px;
+      line-height: 1.35;
+      letter-spacing: -.3px;
+    }
+
+    .policy-section p {
+      margin: 0 0 13px;
+      color: #526158;
+      font-size: 14px;
+    }
+
+    .policy-section p:last-child {
+      margin-bottom: 0;
+    }
+
+    .policy-section ul {
+      margin: 8px 0 15px;
+      padding-left: 22px;
+      color: #526158;
+      font-size: 14px;
+    }
+
+    .policy-section li {
+      margin: 6px 0;
+      padding-left: 3px;
+    }
+
+    .note {
+      margin: 14px 0;
+      padding: 14px 16px;
+      border-left: 3px solid var(--green);
+      border-radius: 0 9px 9px 0;
+      background: #f3f8f4;
+      color: #465b4d;
+      font-size: 13px;
+    }
+
+    .contact-card {
+      padding: 24px;
+      border-radius: var(--radius);
+      background: var(--green-dark);
+      color: white;
+    }
+
+    .contact-card h2 {
+      margin: 0 0 8px;
+      font-size: 20px;
+    }
+
+    .contact-card p {
+      margin: 0 0 13px;
+      color: rgba(255,255,255,.78);
+      font-size: 14px;
+    }
+
+    .contact-card a {
+      color: #b7f0c9;
+      font-weight: 700;
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      padding: 28px 20px;
+      border-top: 1px solid var(--border);
+      background: white;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 3px 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .footer-brand {
+      color: var(--green-dark);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 800px) {
+      .layout {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .sidebar {
+        position: static;
+        padding: 16px;
+      }
+
+      .toc {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .hero {
+        padding-top: 38px;
+        padding-bottom: 58px;
+      }
+
+      .brand {
+        margin-bottom: 28px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .hero {
+        padding: 32px 18px 52px;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      .hero p {
+        font-size: 14px;
+      }
+
+      .layout {
+        padding: 0 13px 38px;
+      }
+
+      .toc {
+        grid-template-columns: 1fr;
+      }
+
+      .policy-section {
+        padding: 22px 19px;
+      }
+
+      .policy-section h2 {
+        font-size: 19px;
+      }
+
+      .summary {
+        padding: 20px;
+      }
+
+      .hero-meta {
+        gap: 7px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+      }
+    }
   </style>
 </head>
+
 <body>
-  <header class="top">
-    <div class="nav">
-      <a class="brand" href="#top" aria-label="NINJA SAWIT - Beranda"><span class="mark" aria-hidden="true">忍</span><span>NINJA SAWIT</span></a>
-      <small>Informasi & Privasi</small>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="brand">
+      <div class="brand-icon" aria-hidden="true">🌴</div>
+      <div>
+        <div class="brand-name">NINJA SAWIT</div>
+        <span class="brand-sub">Privacy & User Protection</span>
+      </div>
     </div>
-    <div class="hero" id="top">
-      <div class="eyebrow">Transparansi adalah prioritas kami</div>
-      <h1>Kebijakan Privasi</h1>
-      <p>Penjelasan tentang informasi yang digunakan saat Anda memainkan NINJA SAWIT, bagaimana informasi tersebut diproses, dan pilihan yang tersedia untuk Anda.</p>
-      <div class="meta"><span class="pill">Terakhir diperbarui: 11 November 2026</span><span class="pill">Aplikasi Android</span></div>
+
+    <h1>Kebijakan Privasi</h1>
+    <p>
+      Informasi mengenai bagaimana aplikasi NINJA SAWIT menangani
+      informasi, penyimpanan data, layanan iklan, dan privasi pengguna.
+    </p>
+
+    <div class="hero-meta">
+      <span class="meta-pill">Developer: M.F.A.</span>
+      <span class="meta-pill">Diperbarui: 11 November 2026</span>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main class="wrap">
-    <aside class="side">
-      <h2>Daftar isi</h2>
-      <nav aria-label="Daftar isi kebijakan privasi">
-        <a href="#ringkasan">Ringkasan</a><a href="#informasi">Informasi yang diproses</a>
-        <a href="#lokal">Penyimpanan lokal</a><a href="#iklan">Iklan & Google</a>
-        <a href="#ump">Persetujuan privasi</a><a href="#jaringan">Koneksi internet</a>
-        <a href="#pihak-ketiga">Layanan pihak ketiga</a><a href="#keamanan">Keamanan data</a>
-        <a href="#anak">Privasi anak</a><a href="#hak">Pilihan dan hak Anda</a>
-        <a href="#perubahan">Perubahan kebijakan</a><a href="#kontak">Hubungi kami</a>
-      </nav>
-      <div class="note">Harap baca kebijakan ini sebelum menggunakan aplikasi. Dengan menggunakan NINJA SAWIT, Anda dapat memahami praktik privasi yang dijelaskan di halaman ini.</div>
-    </aside>
+<main class="layout">
 
-    <article class="content">
-      <div class="intro"><strong>Catatan penting:</strong> NINJA SAWIT menyimpan progres permainan secara lokal pada perangkat. Jika fitur iklan diaktifkan, Google Mobile Ads SDK dapat memproses data tertentu untuk menayangkan, mengukur, dan menjaga keamanan iklan. Rincian dapat berubah mengikuti versi aplikasi dan konfigurasi layanan.</div>
+  <aside class="sidebar">
+    <p class="sidebar-title">Daftar Isi</p>
+    <nav class="toc" aria-label="Daftar isi kebijakan privasi">
+      <a href="#s1">01. Pendahuluan</a>
+      <a href="#s2">02. Informasi yang Dikumpulkan</a>
+      <a href="#s3">03. Penyimpanan dan Penghapusan</a>
+      <a href="#s4">04. Google Mobile Ads</a>
+      <a href="#s5">05. Google UMP</a>
+      <a href="#s6">06. Konfigurasi dan Jaringan</a>
+      <a href="#s7">07. Penggunaan Offline</a>
+      <a href="#s8">08. Layanan Pihak Ketiga</a>
+      <a href="#s9">09. Privasi Anak</a>
+      <a href="#s10">10. Keamanan Informasi</a>
+      <a href="#s11">11. Perubahan Kebijakan</a>
+      <a href="#s12">12. Hubungi Kami</a>
+    </nav>
+  </aside>
 
-      <section class="section" id="ringkasan"><span class="tag">01 · Gambaran umum</span><h2>Ringkasan</h2>
-        <p>NINJA SAWIT adalah permainan Android. Kebijakan ini menjelaskan bagaimana aplikasi dan layanan pihak ketiga yang digunakan bersama aplikasi dapat memproses informasi.</p>
-        <p>Aplikasi dirancang untuk menyimpan progres permainan pada perangkat dan tidak memerlukan pembuatan akun pengguna atau layanan sinkronisasi cloud untuk fitur permainan inti. Aplikasi dapat memerlukan koneksi internet untuk pemeriksaan konektivitas dan fitur online, termasuk layanan iklan apabila telah diaktifkan.</p>
-      </section>
+  <div class="content">
 
-      <section class="section" id="informasi"><span class="tag">02 · Data</span><h2>Informasi yang dapat diproses</h2>
-        <p>NINJA SAWIT tidak meminta Anda membuat akun atau mengirimkan nama, alamat rumah, nomor telepon, maupun informasi profil untuk memainkan fitur inti. Namun, aplikasi dan SDK pihak ketiga dapat memproses kategori informasi berikut sesuai fungsi yang digunakan:</p>
-        <ul>
-          <li><strong>Data permainan lokal:</strong> progres level, koin, item, pengaturan, dan data permainan lain yang disimpan pada perangkat.</li>
-          <li><strong>Informasi perangkat dan aplikasi:</strong> versi aplikasi, informasi perangkat, pengenal perangkat atau iklan yang tersedia, serta informasi teknis yang diperlukan oleh layanan iklan.</li>
-          <li><strong>Informasi jaringan:</strong> alamat IP dan informasi koneksi yang dapat diproses oleh layanan pihak ketiga, misalnya untuk memperkirakan lokasi umum, keamanan, atau penyediaan layanan.</li>
-          <li><strong>Interaksi dan diagnostik:</strong> interaksi dengan aplikasi atau iklan, tayangan dan interaksi iklan, serta informasi kinerja atau diagnostik SDK.</li>
-          <li><strong>Preferensi privasi:</strong> pilihan persetujuan dan pengaturan privasi yang dikelola melalui Google User Messaging Platform (UMP).</li>
-        </ul>
-        <p>Jenis data yang benar-benar diproses bergantung pada fitur yang aktif, versi SDK, pengaturan perangkat, wilayah, dan pilihan privasi Anda.</p>
-      </section>
+    <section class="summary">
+      <span class="summary-label">Ringkasan Privasi</span>
+      <h2>Privasi Anda penting bagi kami</h2>
+      <p>
+        NINJA SAWIT tidak menyediakan akun atau login pengguna.
+        Progres permainan disimpan secara lokal pada perangkat.
+        Aplikasi menggunakan Google Mobile Ads dan Google UMP
+        untuk layanan iklan dan pengelolaan persetujuan privasi.
+      </p>
+    </section>
 
-      <section class="section" id="lokal"><span class="tag">03 · Penyimpanan</span><h2>Penyimpanan data permainan secara lokal</h2>
-        <p>Progres permainan NINJA SAWIT, seperti level, koin, inventaris, dan pengaturan, disimpan secara lokal pada perangkat melalui penyimpanan aplikasi.</p>
-        <ul><li>Data lokal digunakan untuk mempertahankan progres permainan di perangkat tersebut.</li><li>Data lokal tidak otomatis menjadi akun online atau tersinkron ke server milik pengembang.</li><li>Menghapus data aplikasi atau menghapus instalasi dapat menghilangkan progres lokal yang tersimpan.</li></ul>
-        <p>Jika fitur atau versi mendatang memperkenalkan penyimpanan jarak jauh, kebijakan ini akan diperbarui sebelum fitur tersebut digunakan.</p>
-      </section>
+    <section class="policy-section" id="s1">
+      <span class="section-number">BAGIAN 01</span>
+      <h2>1. Pendahuluan</h2>
+      <p>
+        Selamat datang di NINJA SAWIT, sebuah permainan mobile
+        yang dikembangkan oleh M.F.A. ("kami").
+      </p>
+      <p>
+        Kebijakan Privasi ini menjelaskan bagaimana informasi
+        ditangani ketika Anda menggunakan aplikasi NINJA SAWIT,
+        termasuk penggunaan layanan pihak ketiga, teknologi iklan,
+        penyimpanan lokal, dan koneksi jaringan.
+      </p>
+      <p>
+        Dengan menggunakan aplikasi ini, Anda memahami praktik
+        yang dijelaskan dalam Kebijakan Privasi ini.
+      </p>
+    </section>
 
-      <section class="section" id="iklan"><span class="tag">04 · Periklanan</span><h2>Iklan dan layanan Google</h2>
-        <p>Aplikasi menggunakan atau sedang menyiapkan integrasi Google Mobile Ads SDK untuk mendukung iklan dalam aplikasi. Format yang direncanakan mencakup banner, interstitial, dan iklan reward (Rewarded Ads). Ketersediaan iklan bergantung pada koneksi, kelayakan permintaan, persetujuan yang berlaku, dan ketersediaan inventaris iklan.</p>
-        <p>Ketika layanan iklan aktif, Google dan mitra yang relevan dapat memproses informasi seperti alamat IP, pengenal iklan Android atau pengenal aplikasi, interaksi produk, tayangan atau interaksi iklan, serta informasi diagnostik untuk tujuan seperti penyediaan iklan, pengukuran, analitik, dan pencegahan penipuan.</p>
-        <p>Penggunaan layanan Google tunduk pada kebijakan dan ketentuan Google. Pelajari lebih lanjut:</p>
-        <ul><li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Kebijakan Privasi Google</a></li><li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener noreferrer">Pengungkapan data Google Mobile Ads SDK untuk Android</a></li></ul>
-        <div class="callout">Pengembang aplikasi bertanggung jawab memastikan pengungkapan privasi dan formulir Keamanan Data Google Play sesuai dengan SDK, versi aplikasi, fitur, dan konfigurasi yang benar-benar dirilis.</div>
-      </section>
+    <section class="policy-section" id="s2">
+      <span class="section-number">BAGIAN 02</span>
+      <h2>2. Informasi yang Dikumpulkan</h2>
+      <p>
+        NINJA SAWIT tidak menyediakan sistem pendaftaran akun
+        atau login. Aplikasi tidak meminta nama, alamat email,
+        nomor telepon, daftar kontak, maupun lokasi GPS pengguna
+        untuk menjalankan permainan.
+      </p>
+      <p>
+        Informasi permainan berikut disimpan secara lokal pada
+        perangkat Anda:
+      </p>
+      <ul>
+        <li>Progres dan level permainan.</li>
+        <li>Koin, item, inventaris, dan hadiah permainan.</li>
+        <li>Pencapaian, misi, dan statistik permainan.</li>
+        <li>Pengaturan audio dan preferensi permainan.</li>
+      </ul>
+      <p>
+        Berdasarkan implementasi aplikasi saat ini, data profil
+        permainan tersebut tidak dikirim ke server milik pengembang.
+      </p>
+      <p>
+        Namun, layanan pihak ketiga seperti Google Mobile Ads dan
+        Google User Messaging Platform dapat memproses informasi
+        tertentu sebagaimana dijelaskan pada bagian berikutnya.
+      </p>
+    </section>
 
-      <section class="section" id="ump"><span class="tag">05 · Persetujuan</span><h2>Persetujuan dan pilihan privasi</h2>
-        <p>NINJA SAWIT menggunakan Google User Messaging Platform (UMP) untuk membantu menyampaikan pesan privasi dan mengelola pilihan pengguna ketika diwajibkan oleh aturan atau konfigurasi yang berlaku.</p>
-        <p>UMP dapat menampilkan formulir persetujuan berdasarkan wilayah dan persyaratan yang berlaku. Jika tersedia atau diwajibkan, pengguna dapat membuka pilihan privasi untuk meninjau atau mengubah pilihan mereka. Permintaan iklan harus mengikuti status persetujuan dan pemeriksaan kelayakan yang diberikan UMP.</p>
-        <p>Anda juga dapat mengelola pengenal iklan melalui pengaturan privasi atau iklan pada perangkat Android, sesuai opsi yang disediakan oleh versi Android dan perangkat Anda.</p>
-      </section>
+    <section class="policy-section" id="s3">
+      <span class="section-number">BAGIAN 03</span>
+      <h2>3. Penyimpanan dan Penghapusan Data</h2>
+      <p>
+        Data permainan disimpan menggunakan penyimpanan lokal
+        aplikasi Android, termasuk WebView local storage dan
+        Android SharedPreferences.
+      </p>
+      <p>
+        Anda dapat menggunakan fitur <strong>Reset Progres</strong>
+        yang tersedia di dalam aplikasi untuk menghapus atau
+        mengatur ulang data progres permainan yang dikelola oleh
+        fitur tersebut.
+      </p>
+      <p>
+        Penghapusan atau pengaturan ulang data di dalam aplikasi
+        tidak selalu menghapus data yang mungkin telah dicadangkan
+        oleh sistem Android atau layanan pihak ketiga.
+      </p>
+      <p>
+        Aplikasi mengaktifkan fitur Android Auto Backup
+        (allowBackup). Karena itu, data aplikasi tertentu dapat
+        dicadangkan oleh sistem Android sesuai konfigurasi perangkat,
+        versi sistem operasi, dan pengaturan pencadangan pengguna.
+      </p>
+    </section>
 
-      <section class="section" id="jaringan"><span class="tag">06 · Koneksi</span><h2>Koneksi internet</h2>
-        <p>NINJA SAWIT dapat menggunakan koneksi internet untuk memeriksa ketersediaan jaringan dan mendukung layanan online, termasuk layanan iklan setelah diaktifkan. Koneksi internet tidak berarti seluruh progres permainan disimpan di server.</p>
-        <p>Jika koneksi terputus ketika permainan sedang berlangsung, rancangan permainan mengutamakan agar sesi yang sedang berjalan dapat diselesaikan dan progres disimpan secara lokal. Ketersediaan fitur online dan iklan dapat terganggu sampai koneksi kembali tersedia.</p>
-      </section>
+    <section class="policy-section" id="s4">
+      <span class="section-number">BAGIAN 04</span>
+      <h2>4. Google Mobile Ads</h2>
+      <p>
+        NINJA SAWIT menggunakan Google Mobile Ads SDK untuk
+        menampilkan format iklan tertentu, yang dapat mencakup:
+      </p>
+      <ul>
+        <li>Banner Ads.</li>
+        <li>Interstitial Ads.</li>
+        <li>Rewarded Ads.</li>
+      </ul>
+      <p>
+        Rewarded Ads bersifat sukarela. Pengguna dapat memilih
+        untuk menonton iklan demi memperoleh kesempatan menggandakan
+        hadiah dasar penyelesaian level. Hadiah diberikan sesuai
+        mekanisme aplikasi setelah callback reward dari SDK diterima.
+      </p>
+      <p>
+        Google dan mitra layanannya dapat memproses informasi
+        tertentu untuk penyediaan, pengukuran, keamanan, dan
+        peningkatan layanan iklan. Informasi tersebut dapat
+        mencakup, bergantung pada konfigurasi dan layanan yang
+        digunakan:
+      </p>
+      <ul>
+        <li>Alamat IP dan perkiraan lokasi umum.</li>
+        <li>Advertising ID, App Set ID, atau identifier terkait yang tersedia.</li>
+        <li>Interaksi dengan aplikasi dan iklan, seperti tayangan atau klik.</li>
+        <li>Informasi perangkat, sistem operasi, dan versi aplikasi.</li>
+        <li>Data diagnostik, performa, dan informasi teknis lainnya.</li>
+      </ul>
+      <p>
+        Pemrosesan informasi oleh Google dilakukan berdasarkan
+        kebijakan dan ketentuan privasi Google yang berlaku.
+        Pengembang tidak mengendalikan seluruh proses pengumpulan
+        dan penggunaan data oleh layanan Google.
+      </p>
+      <div class="note">
+        Informasi lebih lanjut:
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+          Kebijakan Privasi Google
+        </a>
+        dan
+        <a href="https://support.google.com/admob/" target="_blank" rel="noopener noreferrer">
+          Pusat Bantuan Google AdMob
+        </a>.
+      </div>
+    </section>
 
-      <section class="section" id="pihak-ketiga"><span class="tag">07 · Mitra layanan</span><h2>Layanan pihak ketiga</h2>
-        <p>Aplikasi dapat terhubung dengan layanan pihak ketiga yang diperlukan untuk fungsi tertentu, terutama layanan Google Mobile Ads dan Google UMP. Layanan tersebut beroperasi berdasarkan kebijakan privasi masing-masing penyedia.</p>
-        <p>Kami tidak mengendalikan seluruh praktik pemrosesan data oleh penyedia pihak ketiga. Silakan tinjau kebijakan penyedia tersebut untuk memahami praktik mereka secara lebih lengkap.</p>
-      </section>
+    <section class="policy-section" id="s5">
+      <span class="section-number">BAGIAN 05</span>
+      <h2>5. Google User Messaging Platform (UMP)</h2>
+      <p>
+        Aplikasi menggunakan Google User Messaging Platform (UMP)
+        untuk mengelola persetujuan privasi dan pilihan pengguna
+        terkait layanan iklan, sesuai kebutuhan wilayah dan
+        ketentuan yang berlaku.
+      </p>
+      <p>
+        Dalam kondisi tertentu, Google UMP dapat menampilkan
+        formulir persetujuan atau menyediakan pilihan privasi
+        yang dapat diakses melalui menu privasi di dalam aplikasi.
+      </p>
+      <p>
+        Status persetujuan dapat disimpan oleh SDK untuk membantu
+        mengelola pilihan privasi pengguna pada penggunaan
+        berikutnya.
+      </p>
+      <div class="note">
+        Informasi mengenai Google UMP:
+        <a href="https://developers.google.com/admob/android/privacy" target="_blank" rel="noopener noreferrer">
+          Dokumentasi Privasi Google AdMob
+        </a>.
+      </div>
+    </section>
 
-      <section class="section" id="keamanan"><span class="tag">08 · Perlindungan</span><h2>Keamanan informasi</h2>
-        <p>Kami berupaya menjaga aplikasi dan data lokal melalui praktik pengembangan yang wajar. Penyedia layanan pihak ketiga menerapkan langkah keamanan sesuai layanan mereka. Tidak ada metode penyimpanan atau transmisi elektronik yang dapat dijamin 100% aman.</p>
-      </section>
+    <section class="policy-section" id="s6">
+      <span class="section-number">BAGIAN 06</span>
+      <h2>6. Konfigurasi Iklan dan Koneksi Jaringan</h2>
+      <p>
+        NINJA SAWIT dapat mengakses konfigurasi iklan jarak jauh
+        melalui GitHub Raw menggunakan koneksi HTTPS.
+        Konfigurasi tersebut digunakan untuk mengatur perilaku
+        dan ketersediaan fitur iklan aplikasi.
+      </p>
+      <p>
+        Alamat konfigurasi yang digunakan:
+      </p>
+      <div class="note">
+        https://raw.githubusercontent.com/mfadeveloper/Ninja-Sawit-Remote-Config/main/ads-config.json
+      </div>
+      <p>
+        Aplikasi juga dapat melakukan pemeriksaan konektivitas
+        menggunakan layanan Google berikut:
+      </p>
+      <div class="note">
+        https://connectivitycheck.gstatic.com/generate_204
+      </div>
+      <p>
+        Ketika perangkat mengakses layanan tersebut, alamat IP
+        dan informasi koneksi standar dapat terlihat oleh
+        penyedia layanan terkait, seperti GitHub atau Google.
+      </p>
+      <p>
+        Permintaan konfigurasi dan pemeriksaan konektivitas tersebut
+        tidak dimaksudkan untuk mengirim profil permainan pengguna
+        kepada server pengembang.
+      </p>
+    </section>
 
-      <section class="section" id="anak"><span class="tag">09 · Anak-anak</span><h2>Privasi anak-anak</h2>
-        <p>NINJA SAWIT tidak meminta anak-anak untuk memberikan informasi pribadi secara langsung melalui fitur permainan inti. Namun, layanan iklan pihak ketiga dapat memiliki ketentuan khusus untuk pengguna anak-anak dan aplikasi yang ditujukan kepada anak.</p>
-        <p>Penetapan kelompok usia sasaran, rating konten, konfigurasi iklan, dan perlindungan tambahan harus disesuaikan dengan audiens aplikasi yang sebenarnya serta kebijakan Google Play dan hukum yang berlaku. Jika Anda adalah orang tua atau wali dan memiliki pertanyaan tentang privasi, silakan hubungi pengembang melalui informasi kontak di bawah.</p>
-      </section>
+    <section class="policy-section" id="s7">
+      <span class="section-number">BAGIAN 07</span>
+      <h2>7. Penggunaan Aplikasi Secara Offline</h2>
+      <p>
+        Sebagian fitur NINJA SAWIT memerlukan koneksi internet,
+        termasuk pemuatan iklan dan pengambilan konfigurasi
+        tertentu.
+      </p>
+      <p>
+        Permainan lokal dapat tetap digunakan dalam kondisi
+        tertentu tanpa koneksi internet. Namun, beberapa operasi
+        seperti memulai atau melanjutkan level tertentu dapat
+        memerlukan koneksi sesuai mekanisme aplikasi.
+      </p>
+      <p>
+        Iklan baru tidak akan dimuat apabila persyaratan koneksi
+        dan ketersediaan layanan iklan tidak terpenuhi.
+      </p>
+    </section>
 
-      <section class="section" id="hak"><span class="tag">10 · Kendali pengguna</span><h2>Pilihan dan hak Anda</h2>
-        <ul><li>Anda dapat mengelola pilihan persetujuan melalui formulir UMP atau menu pilihan privasi jika tersedia di aplikasi.</li><li>Anda dapat mengatur atau mereset pengenal iklan melalui pengaturan perangkat Android yang tersedia.</li><li>Anda dapat menghapus data permainan lokal melalui pengaturan aplikasi Android; tindakan ini dapat menghapus progres permainan.</li><li>Untuk pertanyaan atau permintaan terkait informasi yang dapat kami kendalikan, hubungi pengembang melalui alamat kontak yang dicantumkan pada halaman ini.</li></ul>
-      </section>
+    <section class="policy-section" id="s8">
+      <span class="section-number">BAGIAN 08</span>
+      <h2>8. Layanan Pihak Ketiga</h2>
+      <p>
+        Aplikasi menggunakan atau berkomunikasi dengan layanan
+        pihak ketiga berikut:
+      </p>
+      <ul>
+        <li>
+          <strong>Google Mobile Ads:</strong>
+          layanan penyediaan dan pengelolaan iklan.
+        </li>
+        <li>
+          <strong>Google UMP:</strong>
+          pengelolaan formulir dan pilihan persetujuan privasi.
+        </li>
+        <li>
+          <strong>GitHub:</strong>
+          penyedia hosting konfigurasi iklan jarak jauh.
+        </li>
+        <li>
+          <strong>Google Connectivity Check:</strong>
+          layanan pemeriksaan konektivitas internet.
+        </li>
+      </ul>
+      <p>
+        Setiap penyedia layanan pihak ketiga memiliki kebijakan
+        privasi dan ketentuan masing-masing. Kami menyarankan
+        pengguna membaca kebijakan penyedia terkait untuk
+        memahami praktik pemrosesan informasi mereka.
+      </p>
+      <p>
+        Kebijakan pihak ketiga:
+      </p>
+      <ul>
+        <li>
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+            Kebijakan Privasi Google
+          </a>
+        </li>
+        <li>
+          <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">
+            Pernyataan Privasi GitHub
+          </a>
+        </li>
+      </ul>
+    </section>
 
-      <section class="section" id="perubahan"><span class="tag">11 · Pembaruan</span><h2>Perubahan kebijakan ini</h2>
-        <p>Kebijakan ini dapat diperbarui apabila terdapat perubahan pada aplikasi, SDK, fitur, persyaratan hukum, atau praktik pemrosesan informasi. Versi terbaru akan dipublikasikan pada halaman ini bersama tanggal pembaruan. Kami menyarankan Anda meninjau halaman ini secara berkala.</p>
-      </section>
+    <section class="policy-section" id="s9">
+      <span class="section-number">BAGIAN 09</span>
+      <h2>9. Privasi Anak</h2>
+      <p>
+        NINJA SAWIT merupakan permainan untuk khalayak umum dan
+        tidak secara khusus dirancang sebagai aplikasi anak-anak.
+      </p>
+      <p>
+        Aplikasi tidak menyediakan akun pengguna dan tidak secara
+        sengaja meminta informasi pribadi anak melalui fitur
+        permainan.
+      </p>
+      <p>
+        Layanan pihak ketiga yang digunakan aplikasi dapat memiliki
+        ketentuan dan perlindungan privasi tersendiri terkait
+        pengguna anak-anak. Pengelolaan iklan dan persetujuan
+        harus mengikuti konfigurasi serta ketentuan yang berlaku.
+      </p>
+      <p>
+        Apabila Anda meyakini bahwa informasi pribadi telah
+        diberikan kepada pengembang melalui komunikasi langsung,
+        silakan hubungi kami agar hal tersebut dapat ditinjau.
+      </p>
+    </section>
 
-      <section class="section" id="kontak"><span class="tag">12 · Kontak</span><h2>Hubungi pengembang</h2>
-        <p>Jika Anda memiliki pertanyaan mengenai kebijakan privasi NINJA SAWIT, silakan hubungi:</p>
-        <p><strong>Pengembang:</strong> <span class="placeholder">M.F.A</span><br>
-        <strong>Email:</strong> <span class="placeholder">mfadeveloper@yahoo.com</span></p>
-        <p class="smallprint"></p>
-      </section>
-    </article>
-  </main>
+    <section class="policy-section" id="s10">
+      <span class="section-number">BAGIAN 10</span>
+      <h2>10. Keamanan Informasi</h2>
+      <p>
+        Kami berupaya menjaga informasi yang dikelola aplikasi
+        dengan menggunakan mekanisme penyimpanan lokal Android
+        dan koneksi HTTPS untuk komunikasi jaringan yang
+        mendukungnya.
+      </p>
+      <p>
+        Meskipun demikian, tidak ada metode penyimpanan atau
+        transmisi elektronik yang dapat menjamin keamanan
+        secara mutlak.
+      </p>
+      <p>
+        Pengguna tetap bertanggung jawab menjaga keamanan
+        perangkat dan pengaturan akun layanan pihak ketiga
+        yang digunakan.
+      </p>
+    </section>
 
-  <footer class="footer"><div class="footer-inner"><div><strong>NINJA SAWIT</strong><p>Kebijakan Privasi · Aplikasi Android</p></div><div><p>Kontak: <span style="color:#f0cf7d">mfadeveloper@yahoo.com</span></p><p>© 2026 NINJA SAWIT. Hak cipta dilindungi.</p></div></div></footer>
+    <section class="policy-section" id="s11">
+      <span class="section-number">BAGIAN 11</span>
+      <h2>11. Perubahan Kebijakan Privasi</h2>
+      <p>
+        Kami dapat memperbarui Kebijakan Privasi ini apabila
+        terdapat perubahan fitur aplikasi, layanan pihak ketiga,
+        praktik pengelolaan informasi, atau ketentuan hukum
+        yang berlaku.
+      </p>
+      <p>
+        Setiap perubahan akan dipublikasikan melalui halaman
+        Kebijakan Privasi ini dengan pembaruan tanggal revisi.
+      </p>
+      <p>
+        Pengguna disarankan memeriksa halaman ini secara berkala
+        untuk mengetahui perubahan terbaru.
+      </p>
+    </section>
+
+    <section class="contact-card policy-section" id="s12">
+      <span class="section-number" style="color:#b7f0c9">BAGIAN 12</span>
+      <h2 style="color:white">12. Hubungi Kami</h2>
+      <p>
+        Apabila Anda memiliki pertanyaan, masukan, atau permintaan
+        terkait Kebijakan Privasi dan penggunaan informasi pada
+        aplikasi NINJA SAWIT, silakan hubungi pengembang melalui:
+      </p>
+      <p><strong>Developer:</strong> M.F.A.</p>
+      <p>
+        <strong>Email:</strong><br>
+        <a href="mailto:mfadeveloper@yahoo.com">
+          mfadeveloper@yahoo.com
+        </a>
+      </p>
+      <p style="margin-top:18px;font-size:12px">
+        Kami akan meninjau setiap pertanyaan yang disampaikan
+        melalui alamat kontak tersebut.
+      </p>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <p class="footer-brand">NINJA SAWIT</p>
+  <p>Privacy Policy · M.F.A.</p>
+  <p>© 2026 M.F.A. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
